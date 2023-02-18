@@ -1,0 +1,432 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header
+{
+    display:flex;
+    justify-content:space-between;
+align-items: center;
+height:85px;
+padding-left:7vw;
+background-color:rgb(rgb(251, 251, 251), green, blue);
+border-bottom:2px solid rgb(255, 255, 255);
+box-shadow: 0px 2px 2px rgb(184, 183, 183);
+
+}
+.header ul{
+    display:flex;
+    align-items: center;
+    margin-right:70px;
+}
+.header ul li:hover{
+    color: rgb(227, 38, 38);
+    
+}
+.nav ul li{
+    padding:0 15px;
+    font-size: 14px;
+    color:#757575;
+    font-size:17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button1
+{
+    background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 35px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button2
+{
+    background-color: #FF7629;
+  border: none;
+  color: #ffffff;
+  padding: 11px 25px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  border-radius: 25px;
+}
+
+.home
+{
+    background-color: #ffffff;
+}
+.main_slide
+{
+    display:flex;
+    align-items:center;
+     flex-wrap:wrap-reverse;
+     padding-top: 20px;
+}
+.main_slide div:nth-child(1){
+    flex:1;
+    justify-content: center;
+}
+
+.main_slide div:nth-child(2)
+{
+    
+}
+.red
+{
+    background-color: #FF7629;
+    width:470px;
+    height:470px;
+   margin:0px;
+}
+#parent
+{
+    position: relative;
+}
+.green
+{
+    position:absolute;
+    top:40px;
+    right:230px;
+}
+
+ 
+ .slide4
+ {
+    width:100%;
+    height:450px;
+    background-color: #FFF9F3;
+ } 
+.white
+{
+    top:500px;
+    left:320px;
+    height:270px;
+    width:430px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container
+{
+overflow:auto;
+margin:45px;
+}
+.gallery
+{
+border: 2px solid #cccccc;
+margin:20px;
+float:left;
+width:250px;
+border-radius: 15px;
+}
+.desc .add
+{
+display:flex;
+}
+#b
+{
+width:120px;
+height:120px;
+margin-top:60px;
+margin-left:60px;
+margin-bottom: 20px;
+}
+.desc
+{
+margin-top:-1.5%;;
+align-items:center;
+color:white;
+text-style:bold;
+}
+
+
+.container1
+{
+overflow:auto;
+margin-left:85px;
+}
+.gallery1
+{
+margin:10px;
+float:left;
+width:250px;
+border-radius: 15px;
+}
+.desc1 .add
+{
+display:flex;
+}
+#b1
+{
+width:250px;
+height:250px;
+margin-top:60px;
+margin-bottom: 20px;
+border-radius: 25px;
+}
+.desc1
+{
+margin-top:-1.5%;;
+align-items:center;
+color:white;
+text-style:bold;
+}
+
+.container2
+{
+    margin-left:200px;
+overflow:auto;
+width:1000px;
+}
+.gallery2
+{
+border: 2px solid #cccccc;
+margin:10px;
+float:left;
+width:200px;
+border-radius: 15px;
+}
+.desc2 .add
+{
+display:flex;
+}
+#b2
+{
+width:150px;
+height:30px;
+margin: 20px;
+}
+.desc2
+{
+margin-top:-1.5%;;
+align-items:center;
+color:white;
+text-style:bold;
+}
+
+
+.container3
+{
+margin-left:150px;
+overflow:auto;
+width:1000px;
+}
+.gallery3
+{
+margin:10px;
+float:left;
+width:300px;
+border-radius: 15px;
+}
+.desc3 .add
+{
+display:flex;
+}
+#b3
+{
+width:300px;
+height:300px;
+border-radius:25px;
+margin: 20px;
+}
+.desc3
+{
+margin-top:-1.5%;;
+align-items:center;
+color:white;
+text-style:bold;
+}
+
+
+
+
+
+
+
+.container4
+{
+    margin-top:50px;
+margin-left:150px;
+overflow:auto;
+width:1000px;
+}
+.gallery4
+{
+margin:10px;
+float:left;
+width:300px;
+border-radius: 15px;
+}
+.desc4 .add
+{
+display:flex;
+}
+#b4
+{
+width:125px;
+height:125px;
+border-radius:25px;
+margin: 20px;
+}
+.desc4
+{
+margin-top:-1.5%;;
+align-items:center;
+color:white;
+text-style:bold;
+}
+
+
+.container4
+{
+    margin-top:50px;
+margin-left:150px;
+overflow:auto;
+width:1000px;
+}
+.gallery4
+{
+margin:10px;
+float:left;
+width:300px;
+border-radius: 15px;
+}
+.desc4 .add
+{
+display:flex;
+}
+#b4
+{
+width:125px;
+height:125px;
+border-radius:25px;
+margin: 20px;
+}
+.desc4
+{
+margin-top:-1.5%;;
+align-items:center;
+color:white;
+text-style:bold;
+}
+
+
+
+
+.card {
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+  }
+  
+  .containerx {
+    padding: 2px 16px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#deb217;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+} 
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #deb217;
+}
+
+
+
+
+
+
+
+
